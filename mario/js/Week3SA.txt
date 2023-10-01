@@ -1,0 +1,29 @@
+Work Brief
+As a junior software engineer working on a Mario-like game. Your Team Lead needs you to add functionality for a items as Mario collects them throughout his run. 
+
+Task 1.
+It's time to give values to each item in the game. There are 4 items given to you by the game design team. They are coin, heart, balloon, and candy.  The values are 50, 60, 5, 2. 
+
+Create variables from these items and store their values. 
+
+Task 2. 
+1. Create an array named items .
+
+2. Add items to your array. 
+
+3. Call the last item in the array. Hint: Use .length
+
+4. Remove the second item and add the item heartplus instead. It's value is 120
+
+5. When Mario is half way through the game, the order of the items' appear reverses. Reverse the items in the array. 
+
+6. Add an additional item coinbag to the array. It's value is 100. 
+
+7. Print out the current length of the array.
+
+8. Print out the item in position 4. 
+
+9. Remove the last item in the array
+
+Task 3.
+The game designers decided to add in a new feature that increases each items value by 10%. They need you to create a for-loop that increases the values of each item in the array by 10%.
