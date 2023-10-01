@@ -1,0 +1,176 @@
+.payment-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.credit-card-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.credit-card-inputs input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav{
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#add-task-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-task-btn:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item span {
+  flex-grow: 1;
+}
+
+.task-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  align-content: center;
+}
+
+.task-form textarea {
+  height: 100px;
+  width: 100%;
+}
+
+/* From CHAT */
+.task-display {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-display th,
+.task-display td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.task-display th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.task-display td {
+  text-align: center;
+}
+
+.task-display tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.task-display tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* For Home Component */
+.container {
+  width: 100%;
+  padding: 20px 10px;
+  border-color: #c9c9c9;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 31px;
+}
+
+.countdown{
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.the-wager{
+  width: 208px;
+  height: 150px;
+  border-radius: 26px;
+background: #FFF;
+text-align: center;
+}
+
+.add-task{
+  width: 100%;
+  border-radius: 15px;
+border: 4px solid #B3B3B3;
+background: #FFF;
+color: black;
+}
+
+
+
+
+
+
+
